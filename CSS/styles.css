@@ -320,7 +320,22 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-
+.team-social-links-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team-social-link-list-item:not(:last-child) {
+  margin-right: 10px;
+}
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
 .clients .container {
   padding-top: 94px;
@@ -388,6 +403,7 @@ img {
   color: #ffffff;
 }
 .join-us {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -398,6 +414,18 @@ img {
 
 .footer-social-link-list {
   display: flex;
+}
+.footer-social-link-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 .footer-subscribe {
   margin-left: auto;
