@@ -124,7 +124,9 @@ img {
   display: flex;
   align-items: center;
 }
-
+.address-list-item {
+  display: flex;
+}
 .address-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -133,6 +135,20 @@ img {
 .address-list-item-link:hover,
 .address-list-item-link:focus {
   color: var(--accent-color);
+}
+.header-mail-svg {
+  display: inline-flex;
+  align-self: center;
+  margin-right: 10px;
+  width: 16px;
+  height: 11px;
+}
+.header-mail-phone {
+  display: inline-flex;
+  align-self: center;
+  margin-right: 10px;
+  width: 10px;
+  height: 15px;
 }
 
 /* HERO */
