@@ -18,6 +18,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --main-logo-color: #000000;
+  --footer-logo-color: #ffffff;
   --element-logo-color: #2196f3;
 }
 
@@ -448,6 +449,10 @@ img {
 
 .footer-left {
   margin-right: 69px;
+}
+
+.footer-studio {
+  color: var(--footer-logo-color);
 }
 
 .contact-list {
