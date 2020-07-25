@@ -68,6 +68,7 @@ img {
 }
 
 /* ШАПКА САЙТА */
+
 .header {
   border: 1px solid #ececec;
 }
@@ -124,18 +125,22 @@ img {
   display: flex;
   align-items: center;
 }
+
 .address-list-item {
   display: flex;
 }
+
 .address-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .address-list-item-link:hover,
 .address-list-item-link:focus {
   color: var(--accent-color);
 }
+
 .header-mail-svg {
   display: inline-flex;
   align-self: center;
@@ -144,6 +149,7 @@ img {
   height: 11px;
   fill: var(--main-text-color);
 }
+
 .header-mail-phone {
   display: inline-flex;
   align-self: center;
@@ -152,7 +158,11 @@ img {
   height: 15px;
   fill: var(--main-text-color);
 }
+
 .address-list-item-link:hover .header-mail-svg {
+  fill: var(--accent-color);
+}
+.address-list-item-link:focus .header-mail-svg {
   fill: var(--accent-color);
 }
 
@@ -211,10 +221,12 @@ img {
 }
 
 /* ПОЧЕМУ МЫ */
+
 .why-are-we .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .why-are-we-list {
   display: flex;
   justify-content: center;
@@ -263,6 +275,7 @@ img {
 .what-we-do .container {
   padding-bottom: 94px;
 }
+
 .title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -272,6 +285,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+
 .what-we-do-subtitle {
   padding-top: 27px;
   padding-bottom: 27px;
@@ -286,21 +300,26 @@ img {
   text-align: center;
   /* color: #ffffff; */
 }
+
 .what-we-do-list {
   display: flex;
 }
+
 .what-we-do-list-item {
   width: calc((100% - 60px) / 3);
 }
+
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
 /* НАША КОМАНДА */
+
 .team .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .team {
   background-color: var(--section-background-color);
 }
@@ -341,11 +360,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
 .team-social-links-list {
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
 }
+
 .team-social-link {
   display: flex;
   justify-content: center;
@@ -354,6 +375,7 @@ img {
   height: 44px;
   border-radius: 50%;
 }
+
 .team-social-link-list-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -363,13 +385,17 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
+
 .team-social-link:hover {
   background-color: var(--accent-color);
 }
+
 .team-social-link:hover .team-social-icon {
   fill: #ffffff;
 }
+
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
+
 .clients .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -378,6 +404,7 @@ img {
 .clients-list {
   display: flex;
 }
+
 .clients-list-item {
   display: flex;
   justify-content: center;
@@ -388,9 +415,11 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
+
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .clients-list-item:hover,
 .clients-list-item:focus {
   border: 1px solid #2196f3;
@@ -399,6 +428,7 @@ img {
 .clients-icon {
   fill: #afb1b8;
 }
+
 .clients-list-item:hover .clients-icon {
   fill: var(--accent-color);
 }
@@ -442,6 +472,7 @@ img {
 .footer-location {
   color: #ffffff;
 }
+
 .join-us {
   margin-bottom: 20px;
   font-weight: 700;
@@ -455,6 +486,7 @@ img {
 .footer-social-link-list {
   display: flex;
 }
+
 .footer-social-link-list-link {
   display: flex;
   justify-content: center;
@@ -464,17 +496,21 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .footer-social-link-list-item:not(:last-child) {
   margin-right: 10px;
 }
+
 .footer-social-icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
 }
+
 .footer-social-link-list-link:hover {
   background-color: var(--accent-color);
 }
+
 .footer-subscribe {
   margin-left: 94px;
 }
@@ -494,6 +530,7 @@ img {
 .portfolio-filter-list-item {
   margin-right: 8px;
 }
+
 .portfolio-filter-list-item:last-child {
   margin-right: 0px;
 }
@@ -530,6 +567,7 @@ img {
   flex-wrap: wrap;
   margin-top: 34px;
 }
+
 .portfolio-list-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -539,12 +577,15 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
+
 .portfolio-list-item:nth-child(3n) {
   margin-right: 0px;
 }
+
 .portfolio-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+
 .portfolio-list-item-name {
   margin-top: 20px;
   margin-left: 24px;
@@ -554,6 +595,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
+
 .portfolio-list-item-desc {
   margin-top: 4px;
   margin-bottom: 20px;
@@ -564,6 +606,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
 .portfolio-list-item:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
