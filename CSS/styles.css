@@ -124,11 +124,6 @@ img {
 
 .address-list {
   display: flex;
-  align-items: center;
-}
-
-.address-list-item {
-  display: flex;
 }
 
 .address-list-item:not(:last-child) {
@@ -143,20 +138,12 @@ img {
 }
 
 .header-mail-svg {
-  display: inline-flex;
-  align-self: center;
   margin-right: 10px;
-  width: 16px;
-  height: 11px;
   fill: var(--main-text-color);
 }
 
-.header-mail-phone {
-  display: inline-flex;
-  align-self: center;
+.header-phone-svg {
   margin-right: 10px;
-  width: 10px;
-  height: 15px;
   fill: var(--main-text-color);
 }
 
@@ -164,6 +151,13 @@ img {
   fill: var(--accent-color);
 }
 .address-list-item-link:focus .header-mail-svg {
+  fill: var(--accent-color);
+}
+
+.address-list-item-link:hover .header-phone-svg {
+  fill: var(--accent-color);
+}
+.address-list-item-link:focus .header-phone-svg {
   fill: var(--accent-color);
 }
 
